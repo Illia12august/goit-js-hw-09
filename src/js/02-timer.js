@@ -1,6 +1,7 @@
+// Описаний в документації
 import flatpickr from "flatpickr";
+// Додатковий імпорт стилів
 import "flatpickr/dist/flatpickr.min.css";
-
 import Notiflix from 'notiflix';
 
 const startButton = document.querySelector('[data-start]');
@@ -91,4 +92,3 @@ function startTimer() {
   }, 1000);
 }
   
-flatpickr(input, options)
